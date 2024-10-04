@@ -6,6 +6,7 @@ datos={'Nombre ':['Alice','Bob','Charlie'],
 df=pd.DataFrame(datos)
 print(df)
 
+#SELECCIONAR CON INDEXACIÓN
 #Seleccionar datos con iloc[]
 sel_iloc=df.iloc[1,1]
 print(sel_iloc)
